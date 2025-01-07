@@ -4,4 +4,9 @@ INSERT INTO cities (name, country, population, area)
     ('Tokyo', 'Japan', 10000, 17800),
     ('Seoul', 'Korea', 10000, 17800);
 
-SELECT name FROM cities;
+SELECT * FROM cities;
+
+-- Use of Math Operators
+SELECT name, area / population AS population_density from cities;
+
+
