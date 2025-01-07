@@ -1,0 +1,1 @@
+SELECT name, area FROM cities WHERE area BETWEEN 10000 AND 50000;
