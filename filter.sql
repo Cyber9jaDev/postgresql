@@ -12,3 +12,7 @@ SELECT name, area FROM cities WHERE area NOT IN (11800, 27800) OR name = 'Tokyo'
 
 -- Updating records in a table
 UPDATE cities SET area = 50000 WHERE name = 'Tokyo';
+
+-- Deleting records from a table
+
+DELETE FROM cities WHERE name = 'Seoul' AND area = 17800;
